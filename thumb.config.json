@@ -1,0 +1,36 @@
+{
+  "versao": 1,
+  "tamanho": [
+    1080,
+    1920
+  ],
+  "foto": "ref/desempregado.png",
+  "recorte_foto": [
+    40,
+    8,
+    480,
+    254
+  ],
+  "area_rosto": [
+    154,
+    32,
+    320,
+    240
+  ],
+  "badge": "assets/badge-streamer.png",
+  "badge_url": "https://static-cdn.jtvnw.net/badges/v1/f9954507-dd06-4d57-9d2d-7be5b4f57361/3",
+  "badge_posicao": [
+    62,
+    62
+  ],
+  "badge_tamanho": 112,
+  "referencias": "ref/thumbnails",
+  "fontes": [
+    "/System/Library/Fonts/Supplemental/Impact.ttf",
+    "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
+    "/usr/share/fonts/truetype/msttcorefonts/Impact.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf",
+    "C:/Windows/Fonts/impact.ttf"
+  ],
+  "catalogo_expressoes": "expressoes.json"
+}

@@ -1,0 +1,106 @@
+{
+  "versao": 1,
+  "referencia_original": "ref/desempregado.png",
+  "geracao": {
+    "ferramenta": "ImageGen integrado",
+    "nota": "Variantes com expressoes editadas por IA, autorizadas pelo usuario. A foto original nao foi retocada."
+  },
+  "expressoes": {
+    "neutro": {
+      "arquivo": "ref/desempregado.png",
+      "descricao": "Expressao original, neutra e concentrada; conteudo factual e analise.",
+      "gerada_por_IA": false,
+      "dimensoes": [
+        518,
+        318
+      ],
+      "transparente": false,
+      "sha256_geracao": "fca7303a4501f353714ce21a6a22d5803ebc8a80b29cd5dca81e59ef73fdc198"
+    },
+    "feliz": {
+      "arquivo": "assets/desempregado_feliz.png",
+      "descricao": "Sorriso alegre e natural; vitorias, conquistas, humor e comemoracoes.",
+      "gerada_por_IA": true,
+      "area_rosto_relativa": [
+        0.15,
+        0.1,
+        0.85,
+        0.74
+      ],
+      "dimensoes": [
+        1254,
+        1254
+      ],
+      "transparente": true,
+      "sha256_geracao": "e057b5566e56a9d54409e4954ce909719362332bf22c3ab44b61f8be1d37533a"
+    },
+    "surpreso": {
+      "arquivo": "assets/desempregado_surpreso.png",
+      "descricao": "Olhos atentos, sobrancelhas elevadas e boca entreaberta; revelacoes, aliens e misterios.",
+      "gerada_por_IA": true,
+      "area_rosto_relativa": [
+        0.15,
+        0.1,
+        0.85,
+        0.74
+      ],
+      "dimensoes": [
+        1254,
+        1254
+      ],
+      "transparente": true,
+      "sha256_geracao": "b09eb430284516ad5c7cc36dcc32cbff8e90c404b9a7636af2ecdae73064c428"
+    },
+    "triste": {
+      "arquivo": "assets/desempregado_triste.png",
+      "descricao": "Tristeza contida e olhar abatido; perdas, despedidas e saudade.",
+      "gerada_por_IA": true,
+      "area_rosto_relativa": [
+        0.15,
+        0.1,
+        0.85,
+        0.74
+      ],
+      "dimensoes": [
+        1254,
+        1254
+      ],
+      "transparente": true,
+      "sha256_geracao": "0d7c7ad59d881aeb86d7f1ef7af7ce4019247cec479a69563bd4c7a5704aabbd"
+    },
+    "emocionado": {
+      "arquivo": "assets/desempregado_emocionado.png",
+      "descricao": "Olhos marejados e sorriso comovido; homenagens, reencontros e superacao.",
+      "gerada_por_IA": true,
+      "area_rosto_relativa": [
+        0.15,
+        0.1,
+        0.85,
+        0.74
+      ],
+      "dimensoes": [
+        1254,
+        1254
+      ],
+      "transparente": true,
+      "sha256_geracao": "99a1275aa51bb0a02e928770780d00d73430e1c52ce69af331d4bf0b1ae830e5"
+    }
+  },
+  "referencias_identidade": {
+    "frames_reais": [
+      "ref/streamer/desempregado_frontal.png",
+      "ref/streamer/desempregado_tres_quartos.png",
+      "ref/streamer/desempregado_pensativo.png"
+    ],
+    "retrato_auxiliar": {
+      "arquivo": "ref/streamer/desempregado_retrato_ia.png",
+      "dimensoes": [
+        1254,
+        1254
+      ],
+      "ferramenta": "ImageGen integrado",
+      "nota": "Retrato editado por IA a partir dos três frames reais. A região encoberta pelo microfone foi reconstruída. Use os frames reais como referência principal de identidade.",
+      "prompt": "Identity-preserving photo edit, one neutral frontal portrait to be used as a facial reference for future expression variations, not a thumbnail. Image 1 frontal is the edit target and primary identity/pose reference. Images 2 and 3 are additional real identity references, not people to add. Treat image 1 as a real live-streaming camera frame to clean up, not a likeness to reinterpret. Preserve the exact apparent age, face width and shape, brow shape and asymmetry, original eye size and spacing, original nose width and tip, original neutral lips, original jawline, short dark curly hair and hairline, patchy short beard and moustache, natural skin texture and original complexion. Retain his real black over-ear headset, gray tank top and fine necklace. Recompose as a centered crop from the head to the upper chest with room around the entire headset and shoulders, gaze and almost frontal head angle as in Image 1. Remove microphone, foreground hand, room, stream overlay and borders. Reconstruct only the small area occluded by microphone using the other frames wherever visible, preserve the neutral mouth and beard. Neutral dark gray studio background and soft even light, minimal changes to facial pixels and proportions. Natural photo, no glamour retouching, no dramatic lighting, no face reshaping, no invented smile, no text, no badges, no collage. One person. High-definition square PNG."
+    }
+  }
+}
